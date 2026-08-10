@@ -234,7 +234,7 @@
       "no_connect_dangling": "warning",
       "pin_not_connected": "error",
       "pin_not_driven": "error",
-      "pin_to_pin": "warning",
+      "pin_to_pin": "error",
       "power_pin_not_driven": "error",
       "same_local_global_label": "warning",
       "similar_label_and_power": "warning",
@@ -414,15 +414,24 @@
         "filename": "TheSummitProject.kicad_sch",
         "name": "MCU",
         "uuid": "824a843c-f98d-42ac-aedf-08925675716b"
+      },
+      {
+        "filename": "pmic.kicad_sch",
+        "name": "PMIC",
+        "uuid": "589d7319-43ab-496c-8236-77eb6db23a7f"
       }
     ],
-    "used_designators": "J1,R1,IC1,#PWR1-32,C1-9,C11-19,FB1,SW1,Y1-2",
+    "used_designators": "U1,D1,L1,#PWR33-50,C20-22,R2-5,J2-3,TH1,2.2u1,SW2",
     "variants": []
   },
   "sheets": [
     [
       "824a843c-f98d-42ac-aedf-08925675716b",
       "MCU"
+    ],
+    [
+      "589d7319-43ab-496c-8236-77eb6db23a7f",
+      "PMIC"
     ]
   ],
   "text_variables": {},
