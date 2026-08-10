@@ -412,17 +412,17 @@
     "top_level_sheets": [
       {
         "filename": "TheSummitProject.kicad_sch",
-        "name": "Root",
+        "name": "MCU",
         "uuid": "824a843c-f98d-42ac-aedf-08925675716b"
       }
     ],
-    "used_designators": "J1,R1,IC1,#PWR1-30,C1-9,C11-14,FB1,SW1",
+    "used_designators": "J1,R1,IC1,#PWR1-31,C1-9,C11-17,FB1,SW1,Y1-2",
     "variants": []
   },
   "sheets": [
     [
       "824a843c-f98d-42ac-aedf-08925675716b",
-      "Root"
+      "MCU"
     ]
   ],
   "text_variables": {},
