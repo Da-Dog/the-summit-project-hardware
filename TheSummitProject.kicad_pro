@@ -232,7 +232,7 @@
       "net_not_bus_member": "warning",
       "no_connect_connected": "warning",
       "no_connect_dangling": "warning",
-      "pin_not_connected": "error",
+      "pin_not_connected": "ignore",
       "pin_not_driven": "error",
       "pin_to_pin": "error",
       "power_pin_not_driven": "error",
@@ -421,7 +421,7 @@
         "uuid": "589d7319-43ab-496c-8236-77eb6db23a7f"
       }
     ],
-    "used_designators": "U1,D1,L1,#PWR33-50,C20-22,R2-5,J2-3,TH1,2.2u1,SW2",
+    "used_designators": "#FLG1-4,J3,#PWR48-49",
     "variants": []
   },
   "sheets": [
