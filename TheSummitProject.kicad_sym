@@ -2320,7 +2320,7 @@
 			(pin passive line
 				(at 66.04 30.48 270)
 				(length 5.08)
-				(name "PA15"
+				(name "LCD_RST"
 					(effects
 						(font
 							(size 1.27 1.27)

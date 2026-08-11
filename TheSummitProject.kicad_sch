@@ -3909,7 +3909,7 @@
 				(pin passive line
 					(at 66.04 30.48 270)
 					(length 5.08)
-					(name "PA15"
+					(name "LCD_RST"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -5245,10 +5245,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "ff9409c2-5ed6-4957-ad7e-80ff2ecd2bb7")
-	)
-	(no_connect
-		(at 125.73 50.8)
-		(uuid "0acd3735-423e-41fc-a783-bf91f5559afe")
 	)
 	(no_connect
 		(at 156.21 60.96)
@@ -7045,6 +7041,30 @@
 		(uuid "81a999f9-8a8b-4544-a9a3-a34f5829f25d")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 105.41 39.4691 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
+	(global_label "LCD_RST"
+		(shape input)
+		(at 125.73 50.8 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "896789a7-1303-4289-8654-e8f81bfcce0c")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 125.73 39.832 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
