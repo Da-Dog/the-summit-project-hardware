@@ -1456,7 +1456,171 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "STM32U5F7VJT6:NPM1300-CAAA-R"
+		(symbol "Switch:SW_Push"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 1.016)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "SW"
+				(at 1.27 2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "SW_Push"
+				(at 0 -1.524 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 5.08 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 5.08 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Push button switch, generic, two pins"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "switch normally-open pushbutton push-button"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "SW_Push_0_1"
+				(circle
+					(center -2.032 0)
+					(radius 0.508)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 1.27) (xy 0 3.048)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 2.032 0)
+					(radius 0.508)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 1.27) (xy -2.54 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at -5.08 0 0)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 0 180)
+					(length 2.54)
+					(name "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "TheSummitProject:NPM1300-CAAA-R"
 			(pin_names
 				(offset 1.016)
 			)
@@ -1487,7 +1651,7 @@
 					(justify left bottom)
 				)
 			)
-			(property "Footprint" "NPM1300-CAAA-R:BGA35N44X41P5X7_237X307X51"
+			(property "Footprint" "TheSummitProject:BGA35N44X41P5X7_237X307X51"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -2316,170 +2480,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Switch:SW_Push"
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 1.016)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "SW"
-				(at 1.27 2.54 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Value" "SW_Push"
-				(at 0 -1.524 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 5.08 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 5.08 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" "Push button switch, generic, two pins"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_keywords" "switch normally-open pushbutton push-button"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "SW_Push_0_1"
-				(circle
-					(center -2.032 0)
-					(radius 0.508)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 1.27) (xy 0 3.048)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center 2.032 0)
-					(radius 0.508)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.54 1.27) (xy -2.54 1.27)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin passive line
-					(at -5.08 0 0)
-					(length 2.54)
-					(name "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 5.08 0 180)
-					(length 2.54)
-					(name "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "power:+3.3V"
 			(power global)
 			(pin_numbers
@@ -3151,6 +3151,12 @@
 		(uuid "ed8193bc-074a-4159-95b7-1a3297300164")
 	)
 	(junction
+		(at 185.42 135.89)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "07520863-bca5-452c-8ff6-8aa72356555b")
+	)
+	(junction
 		(at 190.5 78.74)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3161,6 +3167,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "3f62ec2a-d136-4c5a-861d-0f0f326fb936")
+	)
+	(junction
+		(at 187.96 135.89)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "43925ea1-2dfd-4017-a058-b30ca5f5a69b")
 	)
 	(junction
 		(at 73.66 49.53)
@@ -3203,12 +3215,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "ec247ff6-a616-4698-b0bc-b9d17f3fdc95")
-	)
-	(junction
-		(at 182.88 135.89)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "f27df197-c087-40b7-8ff7-a017e7481a7a")
 	)
 	(no_connect
 		(at 182.88 90.17)
@@ -3306,6 +3312,16 @@
 	)
 	(wire
 		(pts
+			(xy 182.88 133.35) (xy 187.96 133.35)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "207cbf1b-8ee3-48be-8f39-899f066671a8")
+	)
+	(wire
+		(pts
 			(xy 127 87.63) (xy 127 88.9)
 		)
 		(stroke
@@ -3323,16 +3339,6 @@
 			(type default)
 		)
 		(uuid "3212e259-27be-49f6-a9ea-e454c8fb7575")
-	)
-	(wire
-		(pts
-			(xy 182.88 135.89) (xy 186.69 135.89)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "362d3707-68fd-4e17-87a2-594ae8c1832a")
 	)
 	(wire
 		(pts
@@ -3446,6 +3452,16 @@
 	)
 	(wire
 		(pts
+			(xy 182.88 135.89) (xy 185.42 135.89)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "65280d12-187f-4681-8e61-1a51483748e2")
+	)
+	(wire
+		(pts
 			(xy 198.12 107.95) (xy 198.12 110.49)
 		)
 		(stroke
@@ -3526,13 +3542,13 @@
 	)
 	(wire
 		(pts
-			(xy 182.88 133.35) (xy 182.88 135.89)
+			(xy 190.5 135.89) (xy 187.96 135.89)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "85df2127-4de4-4a03-ba94-d63fc16f3544")
+		(uuid "8b9833af-299d-4320-9a37-4bebc27a31b6")
 	)
 	(wire
 		(pts
@@ -3546,13 +3562,13 @@
 	)
 	(wire
 		(pts
-			(xy 182.88 135.89) (xy 182.88 138.43)
+			(xy 182.88 138.43) (xy 185.42 138.43)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "8ca11ab7-a4e9-4304-b42a-bd3e8f509ebb")
+		(uuid "8c857b63-6a90-4e09-8f43-e2aa05207ddf")
 	)
 	(wire
 		(pts
@@ -3676,6 +3692,16 @@
 	)
 	(wire
 		(pts
+			(xy 187.96 133.35) (xy 187.96 135.89)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ba282def-fc91-4dad-8969-9f9aff56eb6f")
+	)
+	(wire
+		(pts
 			(xy 182.88 120.65) (xy 189.23 120.65)
 		)
 		(stroke
@@ -3726,6 +3752,16 @@
 	)
 	(wire
 		(pts
+			(xy 185.42 135.89) (xy 187.96 135.89)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ca0bf3e7-bc79-498a-84c2-13f7ea60a2c7")
+	)
+	(wire
+		(pts
 			(xy 120.65 102.87) (xy 127 102.87)
 		)
 		(stroke
@@ -3733,6 +3769,16 @@
 			(type default)
 		)
 		(uuid "caff3331-2cca-42a0-9022-5be72fa2dda5")
+	)
+	(wire
+		(pts
+			(xy 185.42 138.43) (xy 185.42 135.89)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cc24e247-8867-46b1-803e-ac295b35c083")
 	)
 	(wire
 		(pts
@@ -4146,7 +4192,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 186.69 135.89 90)
+		(at 190.5 135.89 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -4157,7 +4203,7 @@
 		(fields_autoplaced yes)
 		(uuid "14df396f-1bb3-4358-a0b6-acdf0f67019b")
 		(property "Reference" "#PWR046"
-			(at 193.04 135.89 0)
+			(at 196.85 135.89 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4168,7 +4214,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 190.5 135.8899 90)
+			(at 194.31 135.8899 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4179,7 +4225,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 186.69 135.89 0)
+			(at 190.5 135.89 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4190,7 +4236,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 186.69 135.89 0)
+			(at 190.5 135.89 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4201,7 +4247,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 186.69 135.89 0)
+			(at 190.5 135.89 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4657,7 +4703,7 @@
 		)
 	)
 	(symbol
-		(lib_id "STM32U5F7VJT6:NPM1300-CAAA-R")
+		(lib_id "TheSummitProject:NPM1300-CAAA-R")
 		(at 154.94 105.41 0)
 		(unit 1)
 		(body_style 1)
