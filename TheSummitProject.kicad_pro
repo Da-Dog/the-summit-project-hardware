@@ -232,7 +232,7 @@
       "net_not_bus_member": "warning",
       "no_connect_connected": "warning",
       "no_connect_dangling": "warning",
-      "pin_not_connected": "ignore",
+      "pin_not_connected": "error",
       "pin_not_driven": "error",
       "pin_to_pin": "error",
       "power_pin_not_driven": "error",
@@ -429,9 +429,14 @@
         "filename": "sd.kicad_sch",
         "name": "SD",
         "uuid": "ac9b688a-87ae-4302-bab8-11f2d4f88293"
+      },
+      {
+        "filename": "peripherals.kicad_sch",
+        "name": "Peripherals",
+        "uuid": "3b4a40c0-7c9d-4ce8-93f8-431f93ad7804"
       }
     ],
-    "used_designators": "R5-18,IC2,#FLG1-4,J3-5,#PWR48-63,U2-3,C23-29,Q1",
+    "used_designators": "R5-21,IC2,#FLG1-4,J3-12,#PWR44,#PWR48-69,U2-3,C23-33,Q1",
     "variants": []
   },
   "sheets": [
@@ -450,6 +455,10 @@
     [
       "ac9b688a-87ae-4302-bab8-11f2d4f88293",
       "SD"
+    ],
+    [
+      "3b4a40c0-7c9d-4ce8-93f8-431f93ad7804",
+      "Peripherals"
     ]
   ],
   "text_variables": {},
