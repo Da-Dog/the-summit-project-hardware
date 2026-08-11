@@ -419,9 +419,19 @@
         "filename": "pmic.kicad_sch",
         "name": "PMIC",
         "uuid": "589d7319-43ab-496c-8236-77eb6db23a7f"
+      },
+      {
+        "filename": "screen.kicad_sch",
+        "name": "Screen",
+        "uuid": "97afcfb0-6515-4dad-92a7-143efc8a1a24"
+      },
+      {
+        "filename": "sd.kicad_sch",
+        "name": "SD",
+        "uuid": "ac9b688a-87ae-4302-bab8-11f2d4f88293"
       }
     ],
-    "used_designators": "R5,IC2,#FLG1-4,J3,#PWR48-49,U2-3,C23-24",
+    "used_designators": "R5-11,IC2,#FLG1-4,J3-5,#PWR48-62,U2-3,C23-29,Q1",
     "variants": []
   },
   "sheets": [
@@ -432,6 +442,14 @@
     [
       "589d7319-43ab-496c-8236-77eb6db23a7f",
       "PMIC"
+    ],
+    [
+      "97afcfb0-6515-4dad-92a7-143efc8a1a24",
+      "Screen"
+    ],
+    [
+      "ac9b688a-87ae-4302-bab8-11f2d4f88293",
+      "SD"
     ]
   ],
   "text_variables": {},

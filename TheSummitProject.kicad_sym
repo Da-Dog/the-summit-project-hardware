@@ -952,7 +952,7 @@
 			(pin passive line
 				(at 0 0 0)
 				(length 5.08)
-				(name "TCPP_FLT"
+				(name "PE2"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -970,7 +970,7 @@
 			(pin passive line
 				(at 0 -2.54 0)
 				(length 5.08)
-				(name "TCPP_EN"
+				(name "PE3"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -1006,7 +1006,7 @@
 			(pin passive line
 				(at 0 -7.62 0)
 				(length 5.08)
-				(name "PWR_BTN"
+				(name "PE5"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -2446,7 +2446,7 @@
 			(pin passive line
 				(at 48.26 30.48 270)
 				(length 5.08)
-				(name "PD3"
+				(name "CTP_INT"
 					(effects
 						(font
 							(size 1.27 1.27)
