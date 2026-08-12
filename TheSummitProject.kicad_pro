@@ -447,7 +447,7 @@
       "extra_units": "error",
       "field_name_whitespace": "warning",
       "footprint_filter": "warning",
-      "footprint_link_issues": "ignore",
+      "footprint_link_issues": "warning",
       "four_way_junction": "warning",
       "ground_pin_not_ground": "warning",
       "hier_label_mismatch": "error",
@@ -668,7 +668,7 @@
         "uuid": "3b4a40c0-7c9d-4ce8-93f8-431f93ad7804"
       }
     ],
-    "used_designators": "R5-21,IC2,#FLG1-4,J3-12,#PWR44,#PWR48-69,U2-3,C23-33,Q1",
+    "used_designators": "",
     "variants": []
   },
   "sheets": [

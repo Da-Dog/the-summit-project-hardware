@@ -1160,7 +1160,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical"
 			(at 116.84 83.82 0)
 			(hide yes)
 			(show_name no)
@@ -1240,7 +1240,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical"
 			(at 116.84 68.58 0)
 			(hide yes)
 			(show_name no)
@@ -1435,7 +1435,7 @@
 			)
 		)
 		(pin "1"
-			(uuid "ce3b4625-6726-497b-bc19-74f09e0c4d9a")
+			(uuid "ce3b4625-6726-497b-bc19-74f09e0c4d9b")
 		)
 		(instances
 			(project "TheSummitProject"
@@ -1478,7 +1478,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical"
 			(at 165.1 97.79 0)
 			(hide yes)
 			(show_name no)
@@ -1558,7 +1558,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical"
 			(at 116.84 130.81 0)
 			(hide yes)
 			(show_name no)
@@ -1635,7 +1635,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical"
 			(at 165.1 111.76 0)
 			(hide yes)
 			(show_name no)
@@ -1751,7 +1751,7 @@
 			)
 		)
 		(pin "1"
-			(uuid "ce3b4625-6726-497b-bc19-74f09e0c4d9a")
+			(uuid "ce3b4625-6726-497b-bc19-74f09e0c4d9c")
 		)
 		(instances
 			(project "TheSummitProject"
@@ -1794,7 +1794,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x06_P2.54mm_Vertical"
 			(at 116.84 107.95 0)
 			(hide yes)
 			(show_name no)
@@ -1886,7 +1886,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical"
 			(at 165.1 82.55 0)
 			(hide yes)
 			(show_name no)

@@ -8914,7 +8914,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 80.01 189.738 90)
 			(hide yes)
 			(show_name no)
@@ -9875,7 +9875,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Crystal:Crystal_SMD_5032-4Pin_5.0x3.2mm"
 			(at 24.13 109.22 0)
 			(hide yes)
 			(show_name no)
@@ -10956,7 +10956,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Crystal:Crystal_SMD_3225-4Pin_3.2x2.5mm"
 			(at 25.4 76.2 0)
 			(hide yes)
 			(show_name no)
@@ -11221,7 +11221,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 80.01 182.118 90)
 			(hide yes)
 			(show_name no)
@@ -12479,7 +12479,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 80.01 197.358 90)
 			(hide yes)
 			(show_name no)
@@ -12877,7 +12877,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Button_Switch_SMD:SW_Push_1P1T-SH_NO_CK_KMR2xxG"
 			(at 78.74 25.4 0)
 			(hide yes)
 			(show_name no)

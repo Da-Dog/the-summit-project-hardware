@@ -1575,7 +1575,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 137.922 77.47 90)
 			(hide yes)
 			(show_name no)
@@ -1655,7 +1655,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_Card:microSD_HC_Hirose_DM3AT-SF-PEJM5"
 			(at 64.77 114.3 0)
 			(hide yes)
 			(show_name no)
@@ -1761,7 +1761,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 150.622 113.03 90)
 			(hide yes)
 			(show_name no)
@@ -2079,7 +2079,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 173.482 113.03 90)
 			(hide yes)
 			(show_name no)
@@ -2160,7 +2160,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 148.59 98.298 90)
 			(hide yes)
 			(show_name no)
@@ -2321,7 +2321,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 181.3052 100.33 0)
 			(hide yes)
 			(show_name no)
@@ -2403,7 +2403,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 165.862 77.47 90)
 			(hide yes)
 			(show_name no)
@@ -2485,7 +2485,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 154.432 77.47 90)
 			(hide yes)
 			(show_name no)
@@ -2567,7 +2567,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 162.052 113.03 90)
 			(hide yes)
 			(show_name no)
@@ -2649,7 +2649,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 169.8752 100.33 0)
 			(hide yes)
 			(show_name no)
@@ -2765,7 +2765,7 @@
 			)
 		)
 		(pin "1"
-			(uuid "dbfb7053-0e17-467a-9340-d8eb666df556")
+			(uuid "dbfb7053-0e17-467a-9340-d8eb666df557")
 		)
 		(instances
 			(project "TheSummitProject"

@@ -4754,7 +4754,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 116.5352 86.36 0)
 			(hide yes)
 			(show_name no)
@@ -4836,7 +4836,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 208.5848 86.36 0)
 			(hide yes)
 			(show_name no)
@@ -5086,7 +5086,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Button_Switch_SMD:SW_Push_1P1T_NO_CK_KMR2"
 			(at 204.47 124.46 0)
 			(hide yes)
 			(show_name no)
@@ -5172,7 +5172,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 115.57 102.87 0)
 			(hide yes)
 			(show_name no)
@@ -5838,7 +5838,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 102.5652 86.36 0)
 			(hide yes)
 			(show_name no)
@@ -5917,7 +5917,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 120.65 132.588 90)
 			(hide yes)
 			(show_name no)
@@ -6038,7 +6038,7 @@
 			)
 		)
 		(pin "1"
-			(uuid "086e5cc5-924a-4704-b5e5-47e91d3612ef")
+			(uuid "086e5cc5-924a-4704-b5e5-47e91d3612f0")
 		)
 		(instances
 			(project "TheSummitProject"
@@ -6247,7 +6247,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical"
 			(at 71.12 57.15 0)
 			(hide yes)
 			(show_name no)
@@ -6327,7 +6327,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Inductor_SMD:L_0805_2012Metric"
 			(at 191.77 110.49 0)
 			(hide yes)
 			(show_name no)
@@ -6491,7 +6491,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 214.63 77.7748 0)
 			(hide yes)
 			(show_name no)
@@ -6827,7 +6827,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 99.568 114.3 90)
 			(hide yes)
 			(show_name no)
@@ -6913,7 +6913,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "LED_SMD:LED_RGB_1210"
 			(at 226.06 99.06 0)
 			(hide yes)
 			(show_name no)
@@ -7005,7 +7005,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Inductor_SMD:L_0805_2012Metric"
 			(at 193.04 120.65 0)
 			(hide yes)
 			(show_name no)
@@ -7170,7 +7170,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 197.1548 86.36 0)
 			(hide yes)
 			(show_name no)
@@ -7335,7 +7335,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 110.998 115.57 90)
 			(hide yes)
 			(show_name no)
@@ -7500,7 +7500,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 180.34 57.4548 0)
 			(hide yes)
 			(show_name no)
@@ -7588,7 +7588,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 196.5452 74.93 0)
 			(hide yes)
 			(show_name no)

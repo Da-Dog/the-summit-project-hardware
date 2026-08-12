@@ -3706,7 +3706,7 @@
 			)
 		)
 		(pin "1"
-			(uuid "37a5dcc5-9df8-4034-82fb-12dd29cd4093")
+			(uuid "37a5dcc5-9df8-4034-82fb-12dd29cd4094")
 		)
 		(instances
 			(project "TheSummitProject"
@@ -3829,7 +3829,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
 			(at 193.04 93.98 0)
 			(hide yes)
 			(show_name no)
@@ -3947,7 +3947,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 178.562 102.87 90)
 			(hide yes)
 			(show_name no)
@@ -4029,7 +4029,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 183.642 85.09 90)
 			(hide yes)
 			(show_name no)
@@ -4109,7 +4109,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 173.99 94.742 90)
 			(hide yes)
 			(show_name no)
@@ -4344,7 +4344,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x40_P2.54mm_Vertical"
 			(at 148.59 66.04 0)
 			(hide yes)
 			(show_name no)
@@ -4538,7 +4538,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 104.14 97.028 90)
 			(hide yes)
 			(show_name no)
@@ -4618,7 +4618,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 104.14 86.868 90)
 			(hide yes)
 			(show_name no)
@@ -4698,7 +4698,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 123.19 136.1948 0)
 			(hide yes)
 			(show_name no)
@@ -4778,7 +4778,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 104.14 107.188 90)
 			(hide yes)
 			(show_name no)
@@ -5014,7 +5014,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 111.76 119.6848 0)
 			(hide yes)
 			(show_name no)
@@ -5128,7 +5128,7 @@
 			)
 		)
 		(pin "1"
-			(uuid "7d01b811-53ee-41ad-9f52-13ca62243762")
+			(uuid "7d01b811-53ee-41ad-9f52-13ca62243763")
 		)
 		(instances
 			(project "TheSummitProject"
@@ -5171,7 +5171,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 123.19 123.4948 0)
 			(hide yes)
 			(show_name no)
