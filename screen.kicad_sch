@@ -4179,8 +4179,8 @@
 				)
 			)
 		)
-		(property "Value" "+3.3V"
-			(at 196.85 80.518 0)
+		(property "Value" "+3.3V_DP_LORA"
+			(at 202.184 80.518 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4244,7 +4244,6 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "7703b672-05ce-4dac-8284-6a7f6e3f5876")
 		(property "Reference" "#PWR054"
 			(at 115.57 133.35 0)
@@ -4257,14 +4256,15 @@
 				)
 			)
 		)
-		(property "Value" "+3.3V"
-			(at 115.57 142.24 0)
+		(property "Value" "+3.3V_DP_LORA"
+			(at 112.522 141.478 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify right)
 			)
 		)
 		(property "Footprint" ""
@@ -4836,7 +4836,6 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "c2c8de46-73bb-47c5-8d08-ebedadf7a615")
 		(property "Reference" "#PWR057"
 			(at 179.07 86.36 0)
@@ -4849,15 +4848,14 @@
 				)
 			)
 		)
-		(property "Value" "+3.3V_DISP"
-			(at 173.99 90.1699 90)
+		(property "Value" "+3.3V_DP_LORA"
+			(at 172.974 87.63 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
 		(property "Footprint" ""
@@ -5084,13 +5082,14 @@
 				)
 			)
 		)
-		(property "Value" "+3.3V"
+		(property "Value" "+3.3V_DP_LORA"
 			(at 112.776 124.46 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 0.889 0.889)
+					(color 255 0 230 1)
 				)
 			)
 		)
