@@ -3508,7 +3508,7 @@
 	(footprint "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical"
 		(layer "F.Cu")
 		(uuid "39919cc6-ca2c-49ac-9263-a645550e90be")
-		(at 266.795 29.795)
+		(at 125.5 106.46)
 		(descr "Through hole straight pin header, 1x02, 2.54mm pitch, single row")
 		(tags "Through hole pin header THT 1x02 2.54mm single row")
 		(property "Reference" "J13"
@@ -15215,7 +15215,7 @@
 	(footprint "LED_SMD:LED_RGB_1210"
 		(layer "F.Cu")
 		(uuid "d1b55f68-bf5e-469e-8f90-a593b113c6bf")
-		(at 128.5 104 -90)
+		(at 129 104 -90)
 		(descr "RGB LED 3.2x2.7mm http://www.avagotech.com/docs/AV02-0610EN")
 		(tags "LED 3227")
 		(property "Reference" "D1"
