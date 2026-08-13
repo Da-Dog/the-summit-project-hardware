@@ -7412,7 +7412,7 @@
 				)
 			)
 		)
-		(property "Value" "+3.3V_DISP"
+		(property "Value" "+3.3V_DP_LORA"
 			(at 201.93 109.2199 90)
 			(show_name no)
 			(do_not_autoplace no)
