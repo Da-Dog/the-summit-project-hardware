@@ -5057,7 +5057,7 @@
 			)
 		)
 		(pin "1"
-			(uuid "42faac68-b9e9-41d8-9982-af018b158112")
+			(uuid "42faac68-b9e9-41d8-9982-af018b158113")
 		)
 		(instances
 			(project "TheSummitProject"
@@ -5701,7 +5701,7 @@
 			)
 		)
 		(pin "1"
-			(uuid "42faac68-b9e9-41d8-9982-af018b158112")
+			(uuid "42faac68-b9e9-41d8-9982-af018b158114")
 		)
 		(instances
 			(project "TheSummitProject"
