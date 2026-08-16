@@ -698,7 +698,7 @@
         "uuid": "3b4a40c0-7c9d-4ce8-93f8-431f93ad7804"
       }
     ],
-    "used_designators": "RCC1,LoRa_PWR1,GPS1,SENSOR_PWR1,LoRa1,GPS_PWR1,Sensors1,VSYS1,USB\\-C1,BATT1",
+    "used_designators": "",
     "variants": []
   },
   "sheets": [
