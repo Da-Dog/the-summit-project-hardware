@@ -5970,7 +5970,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "7450f926-e5d2-4b4f-b573-be9209845055")
-		(property "Reference" "J3"
+		(property "Reference" "BATT1"
 			(at 72.39 66.6749 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6034,7 +6034,7 @@
 		(instances
 			(project "TheSummitProject"
 				(path "/589d7319-43ab-496c-8236-77eb6db23a7f"
-					(reference "J3")
+					(reference "BATT1")
 					(unit 1)
 				)
 			)

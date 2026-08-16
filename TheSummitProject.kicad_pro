@@ -166,7 +166,7 @@
         "min_through_hole_diameter": 0.3,
         "min_track_width": 0.2,
         "min_via_annular_width": 0.13,
-        "min_via_diameter": 0.7,
+        "min_via_diameter": 0.5,
         "solder_mask_to_copper_clearance": 0.0,
         "use_height_for_length_calcs": true
       },
@@ -217,7 +217,8 @@
       "track_widths": [
         0.0,
         0.3,
-        0.5
+        0.5,
+        1.5
       ],
       "tuning_pattern_settings": {
         "diff_pair_defaults": {
@@ -249,6 +250,10 @@
         {
           "diameter": 0.0,
           "drill": 0.0
+        },
+        {
+          "diameter": 0.5,
+          "drill": 0.3
         },
         {
           "diameter": 0.7,
@@ -693,7 +698,7 @@
         "uuid": "3b4a40c0-7c9d-4ce8-93f8-431f93ad7804"
       }
     ],
-    "used_designators": "",
+    "used_designators": "RCC1,LoRa_PWR1,GPS1,SENSOR_PWR1,LoRa1,GPS_PWR1,Sensors1,VSYS1,USB\\-C1,BATT1",
     "variants": []
   },
   "sheets": [

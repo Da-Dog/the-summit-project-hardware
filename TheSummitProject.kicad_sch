@@ -11865,7 +11865,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "9fd3a66d-51c6-48be-b7bf-1410f9cee0db")
-		(property "Reference" "J2"
+		(property "Reference" "USB-C1"
 			(at 250.19 129.5399 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11968,7 +11968,7 @@
 		(instances
 			(project "TheSummitProject"
 				(path "/824a843c-f98d-42ac-aedf-08925675716b"
-					(reference "J2")
+					(reference "USB-C1")
 					(unit 1)
 				)
 			)
@@ -13972,8 +13972,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 223.52 71.12 0)
-		(mirror x)
+		(at 223.52 71.12 180)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -13981,10 +13980,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "f961928d-4a3a-4851-b672-9a88753b4165")
 		(property "Reference" "C18"
-			(at 227.33 72.3901 0)
+			(at 219.71 72.3901 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -13995,7 +13993,7 @@
 			)
 		)
 		(property "Value" "1u"
-			(at 227.33 69.8501 0)
+			(at 219.71 69.8501 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -14006,7 +14004,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
-			(at 224.4852 67.31 0)
+			(at 222.5548 67.31 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)

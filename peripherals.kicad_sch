@@ -1279,7 +1279,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "04126b06-b428-4bdc-a9c9-665187955955")
-		(property "Reference" "J7"
+		(property "Reference" "LoRa1"
 			(at 117.475 78.74 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1341,7 +1341,7 @@
 		(instances
 			(project "TheSummitProject"
 				(path "/3b4a40c0-7c9d-4ce8-93f8-431f93ad7804"
-					(reference "J7")
+					(reference "LoRa1")
 					(unit 1)
 				)
 			)
@@ -1359,7 +1359,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "1fd46689-4169-4aa3-a2b4-3fafa8ecb5c6")
-		(property "Reference" "J6"
+		(property "Reference" "GPS1"
 			(at 117.475 63.5 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1421,7 +1421,7 @@
 		(instances
 			(project "TheSummitProject"
 				(path "/3b4a40c0-7c9d-4ce8-93f8-431f93ad7804"
-					(reference "J6")
+					(reference "GPS1")
 					(unit 1)
 				)
 			)
@@ -1597,7 +1597,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "73ce2dba-06d2-43c6-98cf-fa5fec96aa55")
-		(property "Reference" "J11"
+		(property "Reference" "GPS_PWR1"
 			(at 165.735 92.71 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1659,7 +1659,7 @@
 		(instances
 			(project "TheSummitProject"
 				(path "/3b4a40c0-7c9d-4ce8-93f8-431f93ad7804"
-					(reference "J11")
+					(reference "GPS_PWR1")
 					(unit 1)
 				)
 			)
@@ -1677,7 +1677,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "7bd9aea1-cf44-443c-b373-850d0594ec2f")
-		(property "Reference" "J13"
+		(property "Reference" "LoRa_PWR1"
 			(at 165.735 120.65 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1739,7 +1739,7 @@
 		(instances
 			(project "TheSummitProject"
 				(path "/3b4a40c0-7c9d-4ce8-93f8-431f93ad7804"
-					(reference "J13")
+					(reference "LoRa_PWR1")
 					(unit 1)
 				)
 			)
@@ -1836,7 +1836,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "8f28ac57-f172-476a-8029-dae057489695")
-		(property "Reference" "J9"
+		(property "Reference" "RCC1"
 			(at 117.475 125.73 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1895,7 +1895,7 @@
 		(instances
 			(project "TheSummitProject"
 				(path "/3b4a40c0-7c9d-4ce8-93f8-431f93ad7804"
-					(reference "J9")
+					(reference "RCC1")
 					(unit 1)
 				)
 			)
@@ -1913,7 +1913,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c64492cd-af7c-4d26-a03b-f6806854bb4e")
-		(property "Reference" "J12"
+		(property "Reference" "SENSOR_PWR1"
 			(at 165.735 106.68 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1975,7 +1975,7 @@
 		(instances
 			(project "TheSummitProject"
 				(path "/3b4a40c0-7c9d-4ce8-93f8-431f93ad7804"
-					(reference "J12")
+					(reference "SENSOR_PWR1")
 					(unit 1)
 				)
 			)
@@ -2072,7 +2072,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e117e0df-c21f-4cc8-89a6-957c9b1400be")
-		(property "Reference" "J8"
+		(property "Reference" "Sensors1"
 			(at 117.475 97.79 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2146,7 +2146,7 @@
 		(instances
 			(project "TheSummitProject"
 				(path "/3b4a40c0-7c9d-4ce8-93f8-431f93ad7804"
-					(reference "J8")
+					(reference "Sensors1")
 					(unit 1)
 				)
 			)
@@ -2243,7 +2243,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f8e436bb-a272-4af5-92d0-288c3938cff1")
-		(property "Reference" "J10"
+		(property "Reference" "VSYS1"
 			(at 165.735 77.47 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2305,7 +2305,7 @@
 		(instances
 			(project "TheSummitProject"
 				(path "/3b4a40c0-7c9d-4ce8-93f8-431f93ad7804"
-					(reference "J10")
+					(reference "VSYS1")
 					(unit 1)
 				)
 			)
