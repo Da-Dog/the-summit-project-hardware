@@ -8182,7 +8182,7 @@
 				)
 			)
 		)
-		(property "Value" "+3.3V"
+		(property "Value" "+1.8V"
 			(at 139.7 58.4199 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8261,7 +8261,7 @@
 				)
 			)
 		)
-		(property "Value" "+3.3V"
+		(property "Value" "+1.8V"
 			(at 128.27 177.8 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8640,7 +8640,7 @@
 				)
 			)
 		)
-		(property "Value" "+3.3V"
+		(property "Value" "+1.8V"
 			(at 274.32 45.7199 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9028,7 +9028,7 @@
 				)
 			)
 		)
-		(property "Value" "+3.3VA"
+		(property "Value" "+1.8VA"
 			(at 250.19 74.9299 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10188,7 +10188,7 @@
 				)
 			)
 		)
-		(property "Value" "+3.3V"
+		(property "Value" "+1.8V"
 			(at 139.7 86.3599 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10376,7 +10376,7 @@
 				)
 			)
 		)
-		(property "Value" "+3.3V"
+		(property "Value" "+1.8V"
 			(at 67.31 41.402 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11016,7 +11016,7 @@
 				)
 			)
 		)
-		(property "Value" "+3.3V"
+		(property "Value" "+1.8V"
 			(at 87.63 27.9399 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11786,7 +11786,6 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "927ef59e-0309-4a93-8fb2-a6c08b12b013")
 		(property "Reference" "#PWR09"
 			(at 63.5 106.68 0)
@@ -11799,15 +11798,14 @@
 				)
 			)
 		)
-		(property "Value" "+3.3V"
-			(at 55.88 106.6799 90)
+		(property "Value" "+1.8V"
+			(at 53.594 106.68 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
 		(property "Footprint" ""
@@ -12210,7 +12208,7 @@
 				)
 			)
 		)
-		(property "Value" "+3.3V"
+		(property "Value" "+1.8V"
 			(at 67.31 193.04 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13031,7 +13029,7 @@
 				)
 			)
 		)
-		(property "Value" "+3.3V"
+		(property "Value" "+1.8V"
 			(at 184.15 74.9299 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13781,7 +13779,7 @@
 				)
 			)
 		)
-		(property "Value" "+3.3V"
+		(property "Value" "+1.8V"
 			(at 160.02 58.4199 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14251,7 +14249,7 @@
 				)
 			)
 		)
-		(property "Value" "+3.3V"
+		(property "Value" "+1.8V"
 			(at 139.7 81.2799 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14695,7 +14693,7 @@
 				)
 			)
 		)
-		(property "Value" "+3.3VA"
+		(property "Value" "+1.8VA"
 			(at 54.61 134.6199 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14773,7 +14771,7 @@
 				)
 			)
 		)
-		(property "Value" "+3.3V"
+		(property "Value" "+1.8V"
 			(at 56.388 93.98 90)
 			(show_name no)
 			(do_not_autoplace no)

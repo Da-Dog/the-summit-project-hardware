@@ -963,9 +963,9 @@
 		)
 		(uuid "27f61a29-9103-4364-bbf2-7e861e0fe437")
 	)
-	(text "PCB: For high speed layout, keep data lines, CMD and CK length matched"
+	(text "PCB: For high speed layout, keep data lines, CMD and CLK length matched"
 		(exclude_from_sim no)
-		(at 120.65 131.572 0)
+		(at 120.904 131.572 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1898,7 +1898,7 @@
 				)
 			)
 		)
-		(property "Value" "+3.3V"
+		(property "Value" "+3.3V_HP"
 			(at 194.31 100.3299 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1964,7 +1964,6 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "4945e486-8d9c-433b-842f-1400e18c80a9")
 		(property "Reference" "#PWR063"
 			(at 147.32 119.38 0)
@@ -1977,15 +1976,14 @@
 				)
 			)
 		)
-		(property "Value" "+3.3V"
-			(at 139.7 119.3799 90)
+		(property "Value" "+3.3V_HP"
+			(at 135.382 119.38 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
 		(property "Footprint" ""
@@ -2043,7 +2041,6 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "696aad2b-c76a-4bfd-8bde-d2fcca953d9c")
 		(property "Reference" "#PWR062"
 			(at 139.7 73.66 0)
@@ -2056,14 +2053,15 @@
 				)
 			)
 		)
-		(property "Value" "+3.3V"
-			(at 139.7 64.77 0)
+		(property "Value" "+3.3V_HP"
+			(at 135.382 65.532 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Footprint" ""

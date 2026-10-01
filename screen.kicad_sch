@@ -2302,12 +2302,6 @@
 		(uuid "0007f92a-ca59-4165-afde-073c3669bf99")
 	)
 	(junction
-		(at 113.03 120.65)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "09e2a564-b884-4835-98f1-4d8cf772d8e9")
-	)
-	(junction
 		(at 186.69 72.39)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2354,6 +2348,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "b8b8d42f-2521-4319-b7c3-06e5216249c5")
+	)
+	(junction
+		(at 113.03 120.65)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c2ed0a3e-ffc1-44ca-b5dd-650a7ce90034")
 	)
 	(junction
 		(at 113.03 95.25)
@@ -2449,7 +2449,7 @@
 	)
 	(wire
 		(pts
-			(xy 104.14 127) (xy 110.49 127)
+			(xy 100.33 127) (xy 110.49 127)
 		)
 		(stroke
 			(width 0)
@@ -2819,7 +2819,7 @@
 	)
 	(wire
 		(pts
-			(xy 104.14 120.65) (xy 104.14 127)
+			(xy 100.33 120.65) (xy 100.33 127)
 		)
 		(stroke
 			(width 0)
@@ -2849,7 +2849,7 @@
 	)
 	(wire
 		(pts
-			(xy 111.76 120.65) (xy 113.03 120.65)
+			(xy 107.95 120.65) (xy 113.03 120.65)
 		)
 		(stroke
 			(width 0)
@@ -4267,8 +4267,8 @@
 				)
 			)
 		)
-		(property "Value" "+3.3V_DP_LORA"
-			(at 202.184 80.518 0)
+		(property "Value" "+1.8V"
+			(at 196.85 80.772 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4344,7 +4344,7 @@
 				)
 			)
 		)
-		(property "Value" "+3.3V_DP_LORA"
+		(property "Value" "+1.8V"
 			(at 112.522 141.478 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4842,7 +4842,7 @@
 				)
 			)
 		)
-		(property "Value" "0.1u"
+		(property "Value" "100n"
 			(at 119.38 132.08 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5046,8 +5046,8 @@
 				)
 			)
 		)
-		(property "Value" "+3.3V_DP_LORA"
-			(at 172.974 87.63 90)
+		(property "Value" "+3.3V_HP"
+			(at 169.926 90.17 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5180,7 +5180,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 107.95 120.65 90)
+		(at 104.14 120.65 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -5191,7 +5191,7 @@
 		(fields_autoplaced yes)
 		(uuid "eb64a413-ddef-4c00-a566-6b72fedf5e7a")
 		(property "Reference" "C26"
-			(at 107.95 113.03 90)
+			(at 104.14 113.03 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5200,8 +5200,8 @@
 				)
 			)
 		)
-		(property "Value" "0.1u"
-			(at 107.95 115.57 90)
+		(property "Value" "100n"
+			(at 104.14 115.57 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5211,7 +5211,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
-			(at 111.76 119.6848 0)
+			(at 107.95 119.6848 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5222,7 +5222,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 107.95 120.65 0)
+			(at 104.14 120.65 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5233,7 +5233,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 107.95 120.65 0)
+			(at 104.14 120.65 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5244,7 +5244,7 @@
 			)
 		)
 		(property "KLC_S3.3" ""
-			(at 107.95 120.65 90)
+			(at 104.14 120.65 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5255,7 +5255,7 @@
 			)
 		)
 		(property "KLC_S4.1" ""
-			(at 107.95 120.65 90)
+			(at 104.14 120.65 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5302,14 +5302,13 @@
 				)
 			)
 		)
-		(property "Value" "+3.3V_DP_LORA"
+		(property "Value" "+1.8V"
 			(at 112.776 124.46 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 0.889 0.889)
-					(color 255 0 230 1)
 				)
 			)
 		)

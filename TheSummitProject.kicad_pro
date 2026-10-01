@@ -834,7 +834,7 @@
         "uuid": "3b4a40c0-7c9d-4ce8-93f8-431f93ad7804"
       }
     ],
-    "used_designators": "Q2-3,R22",
+    "used_designators": "#PWR45,#PWR68,#PWR73,#PWR78-82,GPS_PWR2,U5-8",
     "variants": []
   },
   "sheets": [
