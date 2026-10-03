@@ -2231,6 +2231,8 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.254)
+					(bold yes)
 					(color 255 0 228 1)
 				)
 			)
@@ -2242,6 +2244,8 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.254)
+					(bold yes)
 					(color 255 0 255 1)
 				)
 			)
