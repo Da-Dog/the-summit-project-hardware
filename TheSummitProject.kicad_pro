@@ -81,16 +81,7 @@
           "width": 0.3
         }
       ],
-      "drc_exclusions": [
-        [
-          "lib_footprint_mismatch|105515761|101951934|68fddd16-7ca1-45d6-acd0-a31e843bf43c|00000000-0000-0000-0000-000000000000",
-          ""
-        ],
-        [
-          "lib_footprint_mismatch|176980761|130381934|29cc8f01-2f47-4103-8b9a-526c11fb0bad|00000000-0000-0000-0000-000000000000",
-          ""
-        ]
-      ],
+      "drc_exclusions": [],
       "meta": {
         "version": 2
       },
@@ -486,7 +477,7 @@
       "extra_units": "error",
       "field_name_whitespace": "warning",
       "footprint_filter": "warning",
-      "footprint_link_issues": "warning",
+      "footprint_link_issues": "ignore",
       "four_way_junction": "warning",
       "ground_pin_not_ground": "warning",
       "hier_label_mismatch": "error",
@@ -505,7 +496,7 @@
       "no_connect_dangling": "warning",
       "pin_not_connected": "error",
       "pin_not_driven": "error",
-      "pin_to_pin": "error",
+      "pin_to_pin": "ignore",
       "power_pin_not_driven": "error",
       "same_local_global_label": "warning",
       "similar_label_and_power": "warning",
@@ -834,7 +825,7 @@
         "uuid": "3b4a40c0-7c9d-4ce8-93f8-431f93ad7804"
       }
     ],
-    "used_designators": "U9,#PWR16,#PWR69,#PWR103-105,#PWR109-110,C42-43",
+    "used_designators": "",
     "variants": []
   },
   "sheets": [

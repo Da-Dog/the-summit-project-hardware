@@ -2422,7 +2422,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "0.1u"
+		(property "Value" "100n"
 			(at 184.15 97.7899 0)
 			(show_name no)
 			(do_not_autoplace no)
