@@ -4315,7 +4315,7 @@
 			(pin passive line
 				(at 0 -40.64 0)
 				(length 5.08)
-				(name "PC2"
+				(name "GPS_INT"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -5629,7 +5629,7 @@
 			(pin passive line
 				(at 33.02 30.48 270)
 				(length 5.08)
-				(name "SNSR_MISO"
+				(name "ACC_INT"
 					(effects
 						(font
 							(size 1.27 1.27)
