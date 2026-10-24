@@ -4045,7 +4045,7 @@
 			(pin passive line
 				(at 0 -2.54 0)
 				(length 5.08)
-				(name "PE3"
+				(name "PIEZO_P1"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -4063,7 +4063,7 @@
 			(pin passive line
 				(at 0 -5.08 0)
 				(length 5.08)
-				(name "PE4"
+				(name "PIEZO_P2"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -4765,7 +4765,7 @@
 			(pin passive line
 				(at 48.26 -88.9 90)
 				(length 5.08)
-				(name "LCD_D8"
+				(name "PE11"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -4783,7 +4783,7 @@
 			(pin passive line
 				(at 50.8 -88.9 90)
 				(length 5.08)
-				(name "LCD_D9"
+				(name "PE12"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -4801,7 +4801,7 @@
 			(pin passive line
 				(at 53.34 -88.9 90)
 				(length 5.08)
-				(name "LCD_D10"
+				(name "PE13"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -4819,7 +4819,7 @@
 			(pin passive line
 				(at 55.88 -88.9 90)
 				(length 5.08)
-				(name "LCD_D11"
+				(name "PE14"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -4837,7 +4837,7 @@
 			(pin passive line
 				(at 58.42 -88.9 90)
 				(length 5.08)
-				(name "LCD_D12"
+				(name "PE15"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -4999,7 +4999,7 @@
 			(pin passive line
 				(at 76.2 -50.8 180)
 				(length 5.08)
-				(name "LCD_D13"
+				(name "PD8"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -5017,7 +5017,7 @@
 			(pin passive line
 				(at 76.2 -48.26 180)
 				(length 5.08)
-				(name "LCD_D14"
+				(name "PD9"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -5035,7 +5035,7 @@
 			(pin passive line
 				(at 76.2 -45.72 180)
 				(length 5.08)
-				(name "LCD_D15"
+				(name "PD10"
 					(effects
 						(font
 							(size 1.27 1.27)
