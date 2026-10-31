@@ -2360,6 +2360,12 @@
 		(uuid "93cb74cb-e8c0-4f4f-aca8-099ad366ca8b")
 	)
 	(junction
+		(at 180.34 78.74)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "9ef3846d-c1c6-4fd5-b0b1-8ff5f961f4a9")
+	)
+	(junction
 		(at 111.76 81.28)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2603,6 +2609,16 @@
 	)
 	(wire
 		(pts
+			(xy 121.92 85.09) (xy 121.92 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "322b0bac-2171-4e49-b00e-3f266801614c")
+	)
+	(wire
+		(pts
 			(xy 114.3 120.65) (xy 114.3 133.35)
 		)
 		(stroke
@@ -2630,6 +2646,16 @@
 			(type default)
 		)
 		(uuid "36a380fc-6c92-4fd3-9b3b-62806996fc5b")
+	)
+	(wire
+		(pts
+			(xy 180.34 78.74) (xy 180.34 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3a28fab3-bef0-46a4-8d23-15aa18ff4fb3")
 	)
 	(wire
 		(pts
@@ -2823,7 +2849,7 @@
 	)
 	(wire
 		(pts
-			(xy 180.34 67.31) (xy 180.34 86.36)
+			(xy 180.34 67.31) (xy 180.34 78.74)
 		)
 		(stroke
 			(width 0)
@@ -2920,6 +2946,16 @@
 			(type default)
 		)
 		(uuid "d0741b5e-6ff2-4882-aa18-89aebb6d26db")
+	)
+	(wire
+		(pts
+			(xy 121.92 67.31) (xy 121.92 77.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d84c6c13-b6e9-4240-90a5-09f4509fcc4f")
 	)
 	(wire
 		(pts
@@ -3185,7 +3221,7 @@
 	)
 	(global_label "LCD_NWE"
 		(shape input)
-		(at 121.92 67.31 270)
+		(at 121.92 86.36 270)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3195,7 +3231,7 @@
 		)
 		(uuid "760b00cd-c15b-4aa0-bd4c-3224ef273131")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 121.92 78.7618 90)
+			(at 121.92 97.8118 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4887,6 +4923,185 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 172.72 78.74 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "ba5e3671-c86e-49c6-9097-2b4a0301edd7")
+		(property "Reference" "#PWR065"
+			(at 172.72 85.09 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 172.72 83.058 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 172.72 78.74 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 172.72 78.74 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 172.72 78.74 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "b3f97078-c8a4-415a-835b-56cef12cee94")
+		)
+		(instances
+			(project "TheSummitProject"
+				(path "/97afcfb0-6515-4dad-92a7-143efc8a1a24"
+					(reference "#PWR065")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 176.53 78.74 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c1a44bd2-e9ba-4105-a916-e3c53ba09f87")
+		(property "Reference" "C30"
+			(at 176.53 71.12 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "100n"
+			(at 176.53 73.66 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+			(at 180.34 77.7748 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 176.53 78.74 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 176.53 78.74 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S3.3" ""
+			(at 176.53 78.74 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S4.1" ""
+			(at 176.53 78.74 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "95b56f47-7219-4376-ac94-e06812bfb39e")
+		)
+		(pin "1"
+			(uuid "e5a89b42-898a-4e01-802a-c4c11a7b7b39")
+		)
+		(instances
+			(project "TheSummitProject"
+				(path "/97afcfb0-6515-4dad-92a7-143efc8a1a24"
+					(reference "C30")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:+3.3VP")
 		(at 176.53 86.36 90)
 		(unit 1)
@@ -5316,6 +5531,88 @@
 			(project "TheSummitProject"
 				(path "/97afcfb0-6515-4dad-92a7-143efc8a1a24"
 					(reference "C27")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 121.92 81.28 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f4bc7643-93f6-40ac-afb1-d799979fd432")
+		(property "Reference" "R30"
+			(at 124.46 80.0099 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "33"
+			(at 124.46 82.5499 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 120.142 81.28 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 121.92 81.28 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 121.92 81.28 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "6150bd8f-3123-4d69-99d9-9797d872e733")
+		)
+		(pin "1"
+			(uuid "2659a33b-d668-41db-8863-c0f5d81f5729")
+		)
+		(instances
+			(project "TheSummitProject"
+				(path "/97afcfb0-6515-4dad-92a7-143efc8a1a24"
+					(reference "R30")
 					(unit 1)
 				)
 			)

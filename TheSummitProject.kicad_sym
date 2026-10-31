@@ -4477,7 +4477,7 @@
 			(pin passive line
 				(at 7.62 -88.9 90)
 				(length 5.08)
-				(name "PA3"
+				(name "NRF_RST"
 					(effects
 						(font
 							(size 1.27 1.27)

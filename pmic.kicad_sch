@@ -4419,7 +4419,7 @@
 	)
 	(wire
 		(pts
-			(xy 101.6 39.37) (xy 134.62 39.37)
+			(xy 101.6 39.37) (xy 115.57 39.37)
 		)
 		(stroke
 			(width 0)
@@ -4666,6 +4666,16 @@
 			(type default)
 		)
 		(uuid "bcd9105d-7a80-418c-b13c-3fa6b5c8bec9")
+	)
+	(wire
+		(pts
+			(xy 123.19 39.37) (xy 134.62 39.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bec1d325-e02b-483f-a9e7-5b26a9d4cb45")
 	)
 	(wire
 		(pts
@@ -5980,6 +5990,107 @@
 			(project "TheSummitProject"
 				(path "/589d7319-43ab-496c-8236-77eb6db23a7f"
 					(reference "R24")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 119.38 39.37 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "3af636b8-554a-4f83-ad10-5327a12dd041")
+		(property "Reference" "R31"
+			(at 119.38 45.72 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "300k"
+			(at 119.38 43.18 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 119.38 41.148 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 119.38 39.37 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 119.38 39.37 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S3.3" ""
+			(at 119.38 39.37 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S4.1" ""
+			(at 119.38 39.37 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "1c31e8f0-6319-4bc6-9541-8d0a70333666")
+		)
+		(pin "1"
+			(uuid "30c9990d-81df-4bbd-9f3e-feef79ab137f")
+		)
+		(instances
+			(project "TheSummitProject"
+				(path "/589d7319-43ab-496c-8236-77eb6db23a7f"
+					(reference "R31")
 					(unit 1)
 				)
 			)
