@@ -60,7 +60,7 @@
           "hatch_smoothing_level": 0,
           "hatch_smoothing_value": 0.1,
           "hatch_thickness": 1.0,
-          "min_clearance": 0.0,
+          "min_clearance": 0.5,
           "min_island_area": 10.0,
           "min_thickness": 0.25,
           "pad_connection": 1,
@@ -76,9 +76,9 @@
           "width": 0.0
         },
         {
-          "gap": 0.3,
+          "gap": 0.15,
           "via_gap": 0.5,
-          "width": 0.3
+          "width": 0.184
         }
       ],
       "drc_exclusions": [],
@@ -217,6 +217,8 @@
       "track_widths": [
         0.0,
         0.127,
+        0.166,
+        0.172,
         0.254,
         0.5,
         0.9
@@ -525,7 +527,7 @@
     "classes": [
       {
         "bus_width": 12,
-        "clearance": 0.2,
+        "clearance": 0.1,
         "diff_pair_gap": 0.25,
         "diff_pair_via_gap": 0.25,
         "diff_pair_width": 0.2,
@@ -541,6 +543,21 @@
         "via_diameter": 0.6,
         "via_drill": 0.3,
         "wire_width": 6
+      },
+      {
+        "clearance": 0.1,
+        "diff_pair_gap": 0.1,
+        "diff_pair_width": 0.166,
+        "microvia_diameter": 0.3,
+        "microvia_drill": 0.1,
+        "name": "USB Data",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 0,
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "track_width": 0.2,
+        "tuning_profile": "",
+        "via_diameter": 0.6,
+        "via_drill": 0.3
       }
     ],
     "meta": {
@@ -825,7 +842,7 @@
         "uuid": "3b4a40c0-7c9d-4ce8-93f8-431f93ad7804"
       }
     ],
-    "used_designators": "R31",
+    "used_designators": "R31,C7,C10-11,L4,#PWR19",
     "variants": []
   },
   "sheets": [
