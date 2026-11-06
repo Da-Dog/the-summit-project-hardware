@@ -60,10 +60,10 @@
           "hatch_smoothing_level": 0,
           "hatch_smoothing_value": 0.1,
           "hatch_thickness": 1.0,
-          "min_clearance": 0.0,
+          "min_clearance": 0.6,
           "min_island_area": 10.0,
           "min_thickness": 0.25,
-          "pad_connection": 2,
+          "pad_connection": 1,
           "remove_islands": 0,
           "thermal_relief_gap": 0.5,
           "thermal_relief_spoke_width": 0.5
@@ -87,7 +87,7 @@
       },
       "rule_severities": {
         "annular_width": "error",
-        "clearance": "error",
+        "clearance": "ignore",
         "connection_width": "warning",
         "copper_edge_clearance": "error",
         "copper_sliver": "warning",
@@ -217,8 +217,8 @@
       "track_widths": [
         0.0,
         0.127,
-        0.166,
-        0.172,
+        0.1509,
+        0.16,
         0.254,
         0.5,
         0.9
@@ -527,10 +527,10 @@
     "classes": [
       {
         "bus_width": 12,
-        "clearance": 0.1,
+        "clearance": 0.15,
         "diff_pair_gap": 0.25,
         "diff_pair_via_gap": 0.25,
-        "diff_pair_width": 0.2,
+        "diff_pair_width": 0.16,
         "line_style": 0,
         "microvia_diameter": 0.3,
         "microvia_drill": 0.1,
@@ -546,8 +546,8 @@
       },
       {
         "clearance": 0.1,
-        "diff_pair_gap": 0.1,
-        "diff_pair_width": 0.166,
+        "diff_pair_gap": 0.25,
+        "diff_pair_width": 0.16,
         "microvia_diameter": 0.3,
         "microvia_drill": 0.1,
         "name": "USB Data",
