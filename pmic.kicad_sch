@@ -7395,7 +7395,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Horizontal"
+		(property "Footprint" "Connector_Molex:Molex_PicoBlade_53048-0210_1x02_P1.25mm_Horizontal"
 			(at 189.23 157.48 0)
 			(hide yes)
 			(show_name no)
