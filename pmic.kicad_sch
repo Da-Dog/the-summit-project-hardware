@@ -5234,7 +5234,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Inductor_SMD:L_0805_2012Metric"
+		(property "Footprint" "Inductor_SMD:L_1008_2520Metric"
 			(at 78.74 85.09 0)
 			(hide yes)
 			(show_name no)
@@ -7031,7 +7031,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Inductor_SMD:L_0805_2012Metric"
+		(property "Footprint" "Inductor_SMD:L_1008_2520Metric"
 			(at 134.62 137.16 0)
 			(hide yes)
 			(show_name no)
@@ -7497,7 +7497,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Inductor_SMD:L_0805_2012Metric"
+		(property "Footprint" "Inductor_SMD:L_1008_2520Metric"
 			(at 78.74 92.71 0)
 			(hide yes)
 			(show_name no)
