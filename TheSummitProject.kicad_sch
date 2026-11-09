@@ -5139,12 +5139,6 @@
 		(uuid "203fbec3-78a5-4b1d-b176-3c5791ac9041")
 	)
 	(junction
-		(at 189.23 113.03)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "27fe92e7-b9a4-405e-a0f2-426981d20076")
-	)
-	(junction
 		(at 247.65 45.72)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -5389,10 +5383,6 @@
 		(uuid "3b535550-97f9-406a-87a8-6505608487bc")
 	)
 	(no_connect
-		(at 107.95 170.18)
-		(uuid "524be929-a906-4eaf-9e38-3ee1ad121d9e")
-	)
-	(no_connect
 		(at 135.89 119.38)
 		(uuid "554e4155-4803-4ba5-b23a-3512059d5a37")
 	)
@@ -5475,6 +5465,10 @@
 	(no_connect
 		(at 110.49 170.18)
 		(uuid "ea9d1a44-59c7-4d35-9448-febd1bd57c4a")
+	)
+	(no_connect
+		(at 135.89 96.52)
+		(uuid "ee78eea2-2c06-45d6-92d2-bf30d6ce88ef")
 	)
 	(no_connect
 		(at 118.11 170.18)
@@ -6240,7 +6234,7 @@
 	)
 	(wire
 		(pts
-			(xy 189.23 113.03) (xy 190.5 113.03)
+			(xy 187.96 113.03) (xy 190.5 113.03)
 		)
 		(stroke
 			(width 0)
@@ -6680,16 +6674,6 @@
 	)
 	(wire
 		(pts
-			(xy 189.23 96.52) (xy 135.89 96.52)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c6930cce-168e-4cba-ad0b-dfd32668fa68")
-	)
-	(wire
-		(pts
 			(xy 67.31 45.72) (xy 67.31 50.8)
 		)
 		(stroke
@@ -6850,16 +6834,6 @@
 	)
 	(wire
 		(pts
-			(xy 189.23 96.52) (xy 189.23 113.03)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e5b39ead-6156-4a4f-bf50-37bef1294e99")
-	)
-	(wire
-		(pts
 			(xy 219.71 148.59) (xy 223.52 148.59)
 		)
 		(stroke
@@ -6960,16 +6934,6 @@
 	)
 	(wire
 		(pts
-			(xy 187.96 113.03) (xy 189.23 113.03)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f7151a21-736b-44ed-8b88-e3d56b570815")
-	)
-	(wire
-		(pts
 			(xy 222.25 53.34) (xy 234.95 53.34)
 		)
 		(stroke
@@ -7037,6 +7001,16 @@
 			(type default)
 		)
 		(uuid "ffbd48a5-bfe9-4e17-ab83-d55b98bb638e")
+	)
+	(label "USB_SEL"
+		(at 189.23 113.03 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left top)
+		)
+		(uuid "07f02641-66a8-427f-9542-0af73205b385")
 	)
 	(label "NRST"
 		(at 52.07 114.3 0)
@@ -7117,6 +7091,16 @@
 			(justify left bottom)
 		)
 		(uuid "d3e7e808-441f-4c16-a527-cf97d10849df")
+	)
+	(label "USB_SEL"
+		(at 107.95 170.18 270)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right top)
+		)
+		(uuid "d8947a50-946e-4933-a2b8-0b15a4cb7a8f")
 	)
 	(global_label "LCD_D3"
 		(shape input)
@@ -10112,7 +10096,7 @@
 		(dnp no)
 		(uuid "478d60ae-4ceb-440a-83f1-581ec54b3769")
 		(property "Reference" "U10"
-			(at 178.308 103.378 0)
+			(at 165.1 104.394 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10123,7 +10107,7 @@
 			)
 		)
 		(property "Value" "TS3USB30EDGSR"
-			(at 178.308 105.918 0)
+			(at 165.354 106.68 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
