@@ -61,7 +61,7 @@
           "hatch_smoothing_value": 0.1,
           "hatch_thickness": 1.0,
           "min_clearance": 0.2,
-          "min_island_area": 10.0,
+          "min_island_area": 0.0013161349,
           "min_thickness": 0.25,
           "pad_connection": 2,
           "remove_islands": 0,
@@ -217,9 +217,9 @@
       "track_widths": [
         0.0,
         0.127,
-        0.1509,
         0.16,
         0.254,
+        0.3447,
         0.5,
         0.7,
         0.9
@@ -528,10 +528,10 @@
     "classes": [
       {
         "bus_width": 12,
-        "clearance": 0.1,
+        "clearance": 0.15,
         "diff_pair_gap": 0.25,
         "diff_pair_via_gap": 0.25,
-        "diff_pair_width": 0.16,
+        "diff_pair_width": 0.3132,
         "line_style": 0,
         "microvia_diameter": 0.3,
         "microvia_drill": 0.1,
